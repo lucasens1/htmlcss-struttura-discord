@@ -53,19 +53,50 @@
 
 .adv{
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: darkblue;
     display: flex;
     justify-content: center;
 }
 
 .spacead{
-    margin: 40px 25%;
+    margin: 30px 25%;
     width: 100%;
-    height: 320px;
+    height: 240px;
     background-color: palevioletred;
+    border: 1px dashed black;
 }
 
 /* /Adv */
 
+/* Sezione Left to right */
 
+.sectionltor{
+    height: 400px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.leftoright{
+    margin: 20px 20%;
+    width: 100%;
+    height: 360px;
+    background-color: chocolate;
+    display: flex;
+}
+
+.leftproductbig{
+    width: 66%;
+    height: 100%;
+    border: 1px dashed black;
+    background-color: lightskyblue;
+}
+
+.rightproductsmall{
+    width: 34%;
+    height: 100%;
+    border: 1px dashed black;
+    background-color: lightpink;
+}
