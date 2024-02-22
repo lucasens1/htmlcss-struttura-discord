@@ -175,3 +175,23 @@
 /* /Prima parte */
 
 /*Seconda parte finale page*/
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #23272a;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pie{
+    margin: 10px 20% 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a3d2fb;
+}
+
+
+
