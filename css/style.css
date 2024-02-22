@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: burlywood;
+}
+/* Header */
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: lightgreen;
+    display: flex; 
+}
+
+/* Nav con spazio diviso */
+.nav{
+    margin: 20px 20%;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(175, 111, 0);
+    display: flex;
+}
+
+.links,
+.logo,
+.login {
+    border: 1px dashed black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.links{
+    width: 50%;
+    text-align: center;
+}
+
+.logo{
+    width: 25%;
+    text-align: left;
+}
+
+.login{
+    width: 25%;
+    text-align: right;
+}
+/* Nav */
+/* Header */
+
+/*Adv*/
+
+
