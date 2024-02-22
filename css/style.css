@@ -11,7 +11,7 @@
 .header{
     width: 100%;
     height: 80px;
-    background-color: lightgreen;
+    background-color: #add8e6;
     display: flex; 
 }
 
@@ -20,7 +20,7 @@
     margin: 20px 20%;
     width: 100%;
     height: 40px;
-    background-color: rgb(175, 111, 0);
+    background-color: #daa520;
     display: flex;
 }
 
@@ -54,7 +54,7 @@
 .adv{
     width: 100%;
     height: 300px;
-    background-color: darkblue;
+    background-color: #00008b;
     display: flex;
     justify-content: center;
 }
@@ -63,7 +63,7 @@
     margin: 30px 25%;
     width: 100%;
     height: 240px;
-    background-color: palevioletred;
+    background-color: #ee82ee;
     border: 1px dashed black;
 }
 
@@ -71,7 +71,7 @@
 
 /* Sezione Left to right */
 
-.sectionltor{
+.section-ltor{
     height: 400px;
     width: 100%;
     background-color: whitesmoke;
@@ -86,17 +86,38 @@
     background-color: chocolate;
     display: flex;
 }
-
-.leftproductbig{
+/* Creo classi universali riutilizzabili a seconda della direction del row */
+.productbig{
     width: 66%;
     height: 100%;
     border: 1px dashed black;
-    background-color: lightskyblue;
+    background-color: #1e90ff;
 }
 
-.rightproductsmall{
+.productsmall{
     width: 34%;
     height: 100%;
     border: 1px dashed black;
-    background-color: lightpink;
+    background-color: #ffc0cb;
 }
+
+/*Sezione right to left*/
+
+.section-rtol{
+    height: 400px;
+    width: 100%;
+    background-color: #eeee;
+    display: flex;
+    justify-content: center;
+}
+
+.rightoleft{
+    margin: 20px 20%;
+    width: 100%;
+    height: 360px;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* /Sezione right to left */
