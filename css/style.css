@@ -46,9 +46,26 @@
     width: 25%;
     text-align: right;
 }
-/* Nav */
-/* Header */
+/* /Nav */
+/* /Header */
 
-/*Adv*/
+/* Adv */
+
+.adv{
+    width: 100%;
+    height: 400px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+}
+
+.spacead{
+    margin: 40px 25%;
+    width: 100%;
+    height: 320px;
+    background-color: palevioletred;
+}
+
+/* /Adv */
 
 
