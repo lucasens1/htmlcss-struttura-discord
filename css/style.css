@@ -119,5 +119,21 @@
     display: flex;
     flex-direction: row-reverse;
 }
-
 /* /Sezione right to left */
+
+/* Sezione spazio grande */
+
+.sectionlarge{
+    height: 600px;
+    width: 100%;
+    background-color: #eeee;
+    display: flex;
+    justify-content: center;
+}
+
+.bigspace{
+    margin: 20px 20%;
+    height: 560px;
+    width: 100%;
+    background-color: green;
+}
